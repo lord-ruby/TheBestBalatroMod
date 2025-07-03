@@ -14,7 +14,7 @@
     loc_vars = function(self, q, card)
         return {
             vars = {
-                "{1.79769e308}",
+                "{1.7975e308}",
                 card.ability.extra
             }
         }
@@ -23,7 +23,7 @@
         if context.joker_main then
             return {
                 hypermult = {
-                    1.79769e308,
+                    1.7975e308,
                     card.ability.extra
                 }
             }
